@@ -45,57 +45,21 @@ public class Employee extends Person {
 <img src="img/diagram.svg" alt="Class Diagram">
 
 ### DIY Exercise: Animals
-1.  Create an `Animal` class and a `Dog` class.
+1.  Create an `Animal` class and a `Dog` class inside the **ie.atu.inheritance** package you created previoisly.
 
-**Animal Class:**
--   A `protected` field for `species` (String).
+**The Animal Class will contain:**
+-   A `private` field for `species` (String).
+-   `Getter` and `setter` methods for the species field.
 -   A method `eat()` that prints "The [species] is eating."
 
-```java
-// In a new file called Animal.java
-package ie.atu.inheritance;
-
-public class Animal {
-    protected String species;
-
-    public void eat() {
-        System.out.println("The " + species + " is eating.");
-    }
-}
-```
-
-**Dog Class:**
+**The Dog Class will contain:**
 -   Extends `Animal`.
 -   A constructor that sets the `species` to "Dog".
 -   A method `bark()` that prints "The dog barks."
 
-```java
-// In a new file called Dog.java
-package ie.atu.inheritance;
-
-public class Dog extends Animal {
-    public Dog() {
-        this.species = "Dog";
-    }
-
-    public void bark() {
-        System.out.println("The dog barks.");
-    }
-}
-```
-
-**In your `Main` class:**
+**In the `Main` class:**
 -   Create an instance of `Dog`.
 -   Call the `eat()` and `bark()` methods.
-
-```java
-// In your Main.java file
-public static void main(String[] args) {
-    Dog myDog = new Dog();
-    myDog.eat();  // Inherited from Animal
-    myDog.bark(); // Defined in Dog
-}
-```
 
 ## 2. Terminology
 
