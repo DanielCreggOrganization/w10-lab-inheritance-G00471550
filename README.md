@@ -15,10 +15,10 @@
 ## 1. Definition and Basics of Inheritance
 
 ### Learning Objective
-Understand the concept of inheritance in Java, how it is implemented and how it allows one class to acquire the properties and behaviors of another class.
+Understand the concept of inheritance in Java, how it is implemented and how it allows one class to acquire the properties and behaviours of another class.
 
 ### Explanation
-Inheritance is a fundamental principle in object-oriented programming (OOP) that allows a new class (subclass) to inherit properties and methods from an existing class (superclass). This promotes code reusability and logical organisation of classes. The subclass inherits characteristics (fields and methods) from the superclass, allowing you to create specialized classes based on more general ones.
+Inheritance is a fundamental principle in object-oriented programming (OOP) that allows a new class (subclass) to inherit properties and methods from an existing class (superclass). This promotes code reusability and logical organisation of classes. The subclass inherits characteristics (fields and methods) from the superclass, allowing you to create specialised classes based on more general ones.
 
 An **"Is-A"** relationship is established between the subclass and superclass. For example, an Employee is a Person; hence, Employee can inherit from Person.
 
@@ -45,7 +45,7 @@ public class Employee extends Person {
 <img src="img/diagram.svg" alt="Class Diagram">
 
 ### DIY Exercise: Animals
-1.  Create an `Animal` class and a `Dog` class inside the **ie.atu.inheritance** package you created previoisly.
+1.  Create an `Animal` class and a `Dog` class inside the **ie.atu.inheritance** package you created previously.
 
 **The Animal Class will contain:**
 -   A `private` field for `species` (String).
@@ -68,7 +68,7 @@ Familiarise yourself with key terms in inheritance, such as superclass and subcl
 
 ### Explanation
 -   **Superclass (Parent Class):** The class from which properties and methods are inherited. It represents a general concept.
--   **Subclass (Child Class):** The class that inherits from the superclass. It represents a specialized version of the superclass.
+-   **Subclass (Child Class):** The class that inherits from the superclass. It represents a specialised version of the superclass.
 
 Inheritance establishes a hierarchy between classes, where the subclass extends the functionality of the superclass.
 
@@ -231,7 +231,7 @@ Java doesn't support multiple inheritance with classes to avoid:
 2.  Complexity in method resolution
 3.  Potential naming conflicts
 
-Instead, Java provides interfaces for implementing multiple inheritance of behavior.
+Instead, Java provides interfaces for implementing multiple inheritance of behaviour.
 
 ## 4. The Object Class
 
@@ -363,4 +363,4 @@ public static void main(String[] args) {
 -   Book: [Java: A Beginner's Guide by Herbert Schildt](https://www.accessengineeringlibrary.com/content/book/9781265242211)
 -   Online Resource: [Inheritance in Java - GeeksforGeeks](https://www.geeksforgeeks.org/inheritance-in-java/)
 
-Happy coding! Remember to test your classes and understand how inheritance affects the behavior and structure of your objects.
+Happy coding! Remember to test your classes and understand how inheritance affects the behaviour and structure of your objects.
